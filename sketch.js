@@ -2,8 +2,8 @@ var bubbles=[]
 
 function setup() {
   createCanvas(1440,820)
-  img1 = loadImage("Assets/page1.jpg")
-  img2 = loadImage("Assets/page2.jpg")
+  img1 = loadImage("https://raw.githubusercontent.com/rohlex18/MetaGame/master/Assets/page1.jpg")
+  img2 = loadImage("https://raw.githubusercontent.com/rohlex18/MetaGame/master/Assets/page2.jpg")
   for (var i = 0; i < 30; i++) {
       bubbles[i] = new bubble();
   }
